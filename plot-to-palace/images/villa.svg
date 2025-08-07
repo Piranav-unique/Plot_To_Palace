@@ -1,0 +1,8 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="150" fill="#E0F2F7"/>
+<rect x="20" y="50" width="160" height="80" fill="#B3E5FC"/>
+<path d="M20 50 L100 20 L180 50 Z" fill="#81D4FA"/>
+<rect x="50" y="80" width="30" height="50" fill="#4FC3F7"/>
+<rect x="120" y="80" width="30" height="50" fill="#4FC3F7"/>
+<text x="100" y="100" font-family="Arial" font-size="16" fill="#01579B" text-anchor="middle">Villa</text>
+</svg>

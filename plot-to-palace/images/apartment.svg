@@ -1,0 +1,11 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="150" fill="#F3E5F5"/>
+<rect x="30" y="40" width="140" height="90" fill="#E1BEE7"/>
+<rect x="40" y="50" width="30" height="30" fill="#BA68C8"/>
+<rect x="85" y="50" width="30" height="30" fill="#BA68C8"/>
+<rect x="130" y="50" width="30" height="30" fill="#BA68C8"/>
+<rect x="40" y="90" width="30" height="30" fill="#BA68C8"/>
+<rect x="85" y="90" width="30" height="30" fill="#BA68C8"/>
+<rect x="130" y="90" width="30" height="30" fill="#BA68C8"/>
+<text x="100" y="75" font-family="Arial" font-size="16" fill="#4A148C" text-anchor="middle">Apartment</text>
+</svg>
