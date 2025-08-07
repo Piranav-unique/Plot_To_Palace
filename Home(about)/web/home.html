@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="fade" highlight highlight-color="lightblue">{{ pageTitle | uppercaseFilter | reverse }}</h1>
+    <p>{{ homeData.description }}</p>
+        <p>Powered by {{ plottoInfo.name }} (Version {{ plottoInfo.version }}) by {{ plottoInfo.author }}</p>
+        <p>{{ moduleMessage | reverse }}</p>
+    <div class="features">
+        <div class="feature-item">
+            <h2>Input Requirements</h2>
+            <p>Specify room dimensions, number of rooms, and other preferences.</p>
+        </div>
+        <div class="feature-item">
+            <h2>Generate 2D Layouts</h2>
+            <p>Get instant 2D floor plans based on your criteria.</p>
+        </div>
+        <div class="feature-item">
+            <h2>Customize & Refine</h2>
+            <p>Adjust and perfect your design with intuitive tools.</p>
+        </div>
+    </div>
+    <div class="design-section">
+        <h2>Start Designing Your House</h2>
+        <p>Click below to begin your 2D house design journey.</p>
+        <button ng-click="redirectToGenerate()">Start Design</button>
+    </div>
+</div>
