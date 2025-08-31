@@ -1,0 +1,321 @@
+.blueprint-3d-viewer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.blueprint-3d-viewer h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.upload-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.upload-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.upload-section p {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.file-input {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px dashed #667eea;
+  border-radius: 10px;
+  background: #f8f9fa;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-input:hover {
+  border-color: #764ba2;
+  background: #f0f0f0;
+}
+
+.preview-section {
+  margin-top: 2rem;
+}
+
+.preview-section h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.blueprint-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.processing-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.processing-section p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.3d-model-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.3d-model-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.view-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.view-controls button {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #667eea;
+  background: white;
+  color: #667eea;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.view-controls button:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.view-controls button.active {
+  background: #667eea;
+  color: white;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.3d-canvas {
+  border: 2px solid #e1e8ed;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.model-info {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.model-info h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.model-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.model-info li {
+  color: #666;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.model-info li::before {
+  content: '✅';
+  position: absolute;
+  left: 0;
+}
+
+.building-stats {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e1e8ed;
+}
+
+.building-stats h5 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.building-stats p {
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.features-info {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.features-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.features-info ol {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.features-info li {
+  color: #666;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.supported-formats,
+.upcoming-features {
+  margin-top: 2rem;
+}
+
+.supported-formats h4,
+.upcoming-features h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.supported-formats ul,
+.upcoming-features ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+
+.supported-formats li,
+.upcoming-features li {
+  color: #666;
+  padding: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.supported-formats li:hover,
+.upcoming-features li:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blueprint-3d-viewer {
+    padding: 1rem;
+  }
+  
+  .blueprint-3d-viewer h2 {
+    font-size: 2rem;
+  }
+  
+  .view-controls {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .view-controls button {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .3d-canvas {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .supported-formats ul,
+  .upcoming-features ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .blueprint-3d-viewer h2 {
+    font-size: 1.8rem;
+  }
+  
+  .upload-section,
+  .3d-model-section,
+  .features-info {
+    padding: 1.5rem;
+  }
+  
+  .view-controls button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+} 

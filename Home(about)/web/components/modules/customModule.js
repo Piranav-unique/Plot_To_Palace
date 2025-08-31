@@ -1,1 +1,0 @@
-angular.module('customModule', []).value('moduleMessage', 'This message comes from a custom module!');
